@@ -51,8 +51,6 @@
     padding: 20px 0px;
 }
 
-
-
 .product-img {
     width: 95vw;
     max-width: 500px;    
@@ -84,6 +82,7 @@ h1 {
     color: var(--color-three);
     width: 95vw;
     max-width: 900px;
+    margin: 20px auto;
 }
 
 button {
