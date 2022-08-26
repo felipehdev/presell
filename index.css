@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;    
+}
+
+:root {
+    --color-one:#00464A;
+    --color-two: #007071;
+    --color-three: #EEEEEE;
+    --color-four: #F14668;
+    --color-five: #F2CB05;    
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-two);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.navBg {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-one);
+    width: 100vw;
+    padding: 5px 0px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    width: 100vw;
+    height: 85vh;    
+    box-shadow: inset 0 0 100px #044c50;
+    padding: 20px 0px;
+}
+
+
+
+.product-img {
+    width: 500px;    
+}
+
+h1 {
+    width: fit-content;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    color: var(--color-three);
+}
+
+.destac {
+    width: fit-content;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    color: var(--color-five);
+}
+
+.call-to-action {    
+    width: fit-content;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 42px;
+    color: var(--color-three);
+    max-width: 900px;
+}
+
+button {
+    background-color: var(--color-four);
+    border-radius: 4px;
+    padding: 10px 25px;
+}
+
+.button-text { 
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    color: var(--color-three);
+    max-width: 900px;
+    text-decoration: none;
+   
+}
