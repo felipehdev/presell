@@ -73,7 +73,7 @@ h1 {
     color: var(--color-five);
 }
 
-.call-to-action {    
+.call-to-action {  
     width: fit-content;
     font-size: 32px;
     font-weight: 400;
@@ -82,7 +82,6 @@ h1 {
     color: var(--color-three);
     width: 95vw;
     max-width: 900px;
-    margin: 20px auto;
 }
 
 button {
@@ -106,5 +105,9 @@ button {
 }
 
 .fda-icons {
+    display: flex;
+    min-width: 320px;
+    width: 600px;
+    max-width: 95%;
     border-radius: 4px;
 }
