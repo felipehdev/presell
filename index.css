@@ -104,3 +104,7 @@ button {
     height: 100%;
     padding: 10px 25px;   
 }
+
+.fda-icons {
+    border-radius: 4px;
+}
