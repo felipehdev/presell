@@ -111,3 +111,12 @@ button {
     max-width: 95%;
     border-radius: 4px;
 }
+
+.terms {
+    padding: 10px;
+}
+
+.terms-links {
+    color: var(--color-three);
+    text-decoration: none;
+}
